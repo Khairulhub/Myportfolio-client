@@ -23,11 +23,11 @@ const Navbar = () => {
 
                
             <ul  className='hidden  md:flex items-center gap-10'>
-                <li><Link to="">Home</Link></li>
-                <li><Link to="">About</Link></li>
-                <li><Link to="">Services</Link></li>
-                <li><Link to="">Works</Link></li>
-                <li><Link to="">Contact</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/services">Services</Link></li>
+                <li><Link to="/portfolio">Works</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
 
 
@@ -36,11 +36,11 @@ const Navbar = () => {
             ${toggle? 'left-[0]':'left-[100%]' }`
             
             }>
-                <li className='p-3'><Link to="">Home</Link></li>
-                <li className='p-3'><Link to="">About</Link></li>
-                <li className='p-3'><Link to="">Services</Link></li>
-                <li className='p-3'><Link to="">Works</Link></li>
-                <li className='p-3'><Link to="">Contact</Link></li>
+                <li className='p-3'><Link to="/">Home</Link></li>
+                <li className='p-3'><Link to="/about">About</Link></li>
+                <li className='p-3'><Link to="/services">Services</Link></li>
+                <li className='p-3'><Link to="/portfolio">Works</Link></li>
+                <li className='p-3'><Link to="/contact">Contact</Link></li>
             </ul>
         
         
