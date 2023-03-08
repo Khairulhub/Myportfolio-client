@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./Components/Home";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
+import AddPortfolioCardform from "./Components/Add/AddPortfolioCardform";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/addportfolioform" element={<AddPortfolioCardform />} />
        
         <Route path="/sequre" element={<SequreForm />} />
       </Routes>

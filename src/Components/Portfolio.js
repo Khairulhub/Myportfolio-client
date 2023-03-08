@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PortfolioCard from "./PortfolioCard";
 import { AiFillFileAdd } from "react-icons/ai";
-import SequreForm from "./Add/SequreForm";
+// import SequreForm from "./Add/SequreForm";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
